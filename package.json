@@ -4,7 +4,7 @@
   "description": "A Vue.js web extension",
   "author": "Jonathan Fillion <fillion.jonathan@gmail.com>",
   "scripts": {
-    "build": "rm -fr dist/ && cross-env NODE_ENV=production webpack --hide-modules",
+    "build": "cross-env NODE_ENV=production webpack --hide-modules",
     "build:dev": "cross-env NODE_ENV=development webpack --hide-modules",
     "build-zip": "node scripts/build-zip.js",
     "watch": "npm run build -- --watch",

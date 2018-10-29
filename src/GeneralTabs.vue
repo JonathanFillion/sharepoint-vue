@@ -1,19 +1,24 @@
 <template>
   <div class="text-small">
-  	<div ref="pre" class="spaced">Pre-Assessment</div>
-  	<div ref="ass" class="spaced">Assessment</div>
-  	<div ref="on" class="spaced">Onboarded</div>
+  	<div ref="pre" class="clickable" v-on:click="click('pre')">Pre-Assessment</div>
+  	<div ref="ass" class="clickable" v-on:click="click('ass')">Assessment</div>
+  	<div ref="on" class="clickable" v-on:click="click('on')">Onboarded</div>
   </div>
 </template>
 <script>
 	export default {
+	props: ["isDisplayed"],
+	
 	data () {
 		return {}	
 	},
   	mounted: function() {
-    	console.log(this.$refs);
-    	console.log("should iterate keys, then add click listener { () => this.selected = true, all others = false}")
-  	}
+    },
+	methods: {
+	click: function(selection) {
+			this.$emit('hoistDisplayRequest',selection)
+	},
+  },
 }
 </script>
 
@@ -26,7 +31,9 @@
 		background-color: black;
 		color: white;
 	}
-	.spaced {
+	
+	.clickable {
+		cursor: pointer;
 		margin: 5px;
 	}
 </style>

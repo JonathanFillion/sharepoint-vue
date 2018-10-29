@@ -1,13 +1,22 @@
 <template>
   <div class="text-small">
-  	<div class="spaced">TFA selected</div>
+  	<div class="clickable" ref="tfa" v-on:click="click('tfa')">TFA</div>
   </div>
 </template>
 <script>
 	export default {
+	props: ["isDisplayed"],
 	data () {
 		return {}	
-	}
+	},
+	mounted: function() {
+		console.log(this.$refs)
+	}, 
+	methods: {
+		click: function(selection) {
+			this.$emit('hoistDisplayRequest',selection)
+		},
+	},
 	}
 </script>
 
@@ -20,7 +29,9 @@
 		background-color: black;
 		color: white;
 	}
-		.spaced {
+	
+	.clickable {
+		cursor: pointer;
 		margin: 5px;
-	}
+		}
 </style>
