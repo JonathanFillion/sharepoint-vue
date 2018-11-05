@@ -1,12 +1,13 @@
 <template>
   <div class="text-small">
-  	<div ref="pre" class="clickable" v-on:click="click('pre')">Pre-Assessment</div>
-  	<div ref="ass" class="clickable" v-on:click="click('ass')">Assessment</div>
-  	<div ref="on" class="clickable" v-on:click="click('on')">Onboarded</div>
+  	<div ref="pre" class="clickable" v-bind:class="{text_selected: 'pre' === this.isDisplayed}" v-on:click="click('pre')">Pre-Assessment</div>
+  	<div ref="ass" class="clickable" v-bind:class="{text_selected: 'ass' === this.isDisplayed}" v-on:click="click('ass')">Assessment</div>
+  	<div ref="on" class="clickable" v-bind:class="{text_selected: 'on' === this.isDisplayed}" v-on:click="click('on')">Onboarded</div>
   </div>
 </template>
 <script>
 	export default {
+	//
 	props: ["isDisplayed"],
 	
 	data () {
@@ -15,9 +16,9 @@
   	mounted: function() {
     },
 	methods: {
-	click: function(selection) {
-			this.$emit('hoistDisplayRequest',selection)
-	},
+		click: function(selection) {
+				this.$emit('hoistDisplayRequest',selection)
+		},
   },
 }
 </script>
@@ -27,7 +28,7 @@
 		text-align: center;
 		font-size: 16px;
 	}
-	.text-selected {
+	.text_selected {
 		background-color: black;
 		color: white;
 	}

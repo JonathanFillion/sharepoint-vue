@@ -1,6 +1,6 @@
 <template>
   <div class="text-small">
-  	<div class="clickable" ref="tfa" v-on:click="click('tfa')">TFA</div>
+  	<div class="clickable" ref="tfa" v-bind:class="{text_selected: 'tfa' === this.isDisplayed}" v-on:click="click('tfa')">TFA</div>
   </div>
 </template>
 <script>
@@ -25,7 +25,7 @@
 		text-align: center;
 		font-size: 16px;
 	}
-	.text-selected {
+	.text_selected {
 		background-color: black;
 		color: white;
 	}

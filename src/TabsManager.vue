@@ -56,7 +56,7 @@ export default {
 		margin-top: 3px;
 		border: 3px solid;
 		position:absolute;
-		width: 9%;
+		width: 12%;
 		background-color: white;
 	
 	}
