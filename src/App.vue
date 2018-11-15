@@ -29,28 +29,38 @@
 			updateShouldDisplay: function(id) {
 			
 				//TAKES ID
-				var toTR = function(elemId) {
-					var node = document.getElementById(elemId);
-					while(node.tagName !== "TR") {node = node.parentNode}
+				var toTR = function(node, skipmode) {
+					while(node.tagName !== "TR" || skipmode) {
+						skipmode = false;
+						node = node.parentNode
+						}
 					return node;
 }
 			
 				this.shouldDisplay = id
 				
-				if(this.shouldDisplay === 'all'){
-					var displayAll = document.getElementsByClassName("remove-from-view");
-					console.log(displayAll)
-					for(var i = 0 ; i < displayAll.length;i++){
-						displayAll[i].classList.toggle("remove-from-view")
-					}
 				
-				} else {
+					while(true){
+						var displayAll = document.getElementsByClassName("remove-from-view");
+						for(var i = 0 ; i < displayAll.length;i++){
+							displayAll[i].classList.toggle("remove-from-view")
+						}
+						if(displayAll.length === 0)
+							break;
+					}
+				if(this.shouldDisplay !== 'all'){
+					//this.shouldDisplay is a category name aka smos name
 					var shouldDisplayIds = Object.values(this.ids[this.shouldDisplay])
-					console.log(shouldDisplayIds)
+					//Get all ids inside object
 					var allIds = Object.values(this.ids)
 					for(var i = 0 ; i < allIds.length;i++){
 						for(var j = 0 ; j < allIds[i].length; j++){
-							toTR(allIds[i][j]).className += " remove-from-view"
+							if(!shouldDisplayIds.includes(allIds[i][j])){
+								if(allIds[i][j].includes("$DateTimeFieldDate"))
+									toTR(toTR(document.getElementById(allIds[i][j])), true).className += " remove-from-view t"
+								else
+									toTR(document.getElementById(allIds[i][j])).className += " remove-from-view"
+							}
 						}
 					}
 				}
