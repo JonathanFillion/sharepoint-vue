@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-  <div>{{this.shouldDisplay}}</div>
+  
     <TabsManager :shouldDisplay="this.shouldDisplay" v-on:hoistDisplayRequest="updateShouldDisplay"></TabsManager>
 	
   </div>
@@ -17,7 +17,7 @@
 			request.addEventListener('load', (req) => {
 				this.ids = JSON.parse(JSON.parse(req.originalTarget.response))			
 			})
-			request.open("GET", "https://synergi.ssc-spc.gc.ca/IS/SMO-OGS/SMTPS/Shared%20Documents/dev/sharepoint-edit-vue/ids")
+			request.open("GET", "https://synergi.ssc-spc.gc.ca/IS/SMO-OGS/SMTPS/Shared%20Documents/dev/tabs-manager-vue/ids")
 			request.send();
 		},
 		mounted: function(){
@@ -68,10 +68,11 @@
 				Weird issues : retire invisible doit etre cliquer plusieurs fois pour tout remettre, parent - enfants ???
 				Doulbe TR might be needed, not implememted.
 				
+				How to get ids :
 				
-				
-				
-				
+				var ids = document.getElementsByClassName("ms-formbody")
+				for(var i = 0 ; i < ids.length -1 ; i++) {spans.push(ids[i].querySelector('[dir="none"]'))}
+				for(var i = 0 ; i < spans.length; i++) {console.log(spans[i].firstChild.id)}
 				*/
 			
 			},
