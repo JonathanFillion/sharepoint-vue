@@ -22,11 +22,14 @@
 			
 		},
 		data () {
-			return {shouldDisplay: "all", ids: null}
+			return {shouldDisplay: "all", ids: null, logged:false}
 		},
 		methods: {
 			updateShouldDisplay: function(id) {
-			
+				if(!this.logged){
+					this.logged = true;
+					this.logAccessToList();
+				}
 				//TAKES ID, returns tr node
 				var toTR = function(node, skipmode) {
 					while(node.tagName !== "TR" || skipmode) {
@@ -35,8 +38,24 @@
 						}
 					return node;
 				}
+				
+				var toggleBorder = function(currentDisplayId, ids) {
+				if(typeof ids.separators[currentDisplayId] !== 'undefined'){
+						var idToAddLine = ids.separators[currentDisplayId];
+						if(idToAddLine.includes("$DateTimeFieldDate"))
+							toTR(toTR(document.getElementById(idToAddLine)), true).classList.toggle("top-border");
+						else
+							toTR(document.getElementById(idToAddLine)).classList.toggle("top-border");
+						}
+				}
+				
+				//Focusing problem solved
 				document.getElementById("Title_fa564e0f-0c70-4ab9-b863-0177e6ddd247_$TextField").focus();
-				this.shouldDisplay = id
+				/*Hard to add style to a TR
+				Remove any border added by the preceding display
+				toggleBorder(this.shouldDisplay, this.ids)*/
+				
+				this.shouldDisplay = id;
 				
 					//Loop until all invisible elements are visible
 					while(true){
@@ -48,7 +67,11 @@
 							break;
 					}
 				if(this.shouldDisplay !== 'all'){
-					//this.shouldDisplay is a category name aka smos name
+					/*Hard to add style to a TR
+					Add a border on top of the element if defined in the ids data
+					toggleBorder(this.shouldDisplay, this.ids);*/
+					
+					//this.shouldDisplay is a category name like "classic", "onboarding"
 					var shouldDisplayIds = Object.values(this.ids[this.shouldDisplay])
 					//Get all ids inside object
 					var allIds = Object.values(this.ids)
@@ -69,16 +92,32 @@
 				}
 				/*				
 				How to get ids from edit list:
-				
 				var ids = document.getElementsByClassName("ms-formbody")
 				for(var i = 0 ; i < ids.length -1 ; i++) {spans.push(ids[i].querySelector('[dir="none"]'))}
 				for(var i = 0 ; i < spans.length; i++) {console.log(spans[i].firstChild.id)}
 				*/
 			
 			},
-			
-			
-			
+			logAccessToList: function() {
+					var url = "https://synergi.ssc-spc.gc.ca/IS/SMO-OGS/SMTPS/_api/Web/lists/getbytitle('logs')/items";
+					$.ajax({
+					url: url,
+					method: 'POST',
+					data: "{ '__metadata': { 'type': 'SP.List' }, 'Title': '"+document.getElementById("O365_MainLink_Me").innerText+"' }",
+					beforeSend: function(XMLHttpRequest) {
+						XMLHttpRequest.setRequestHeader('Accept', 'application/json; odata=verbose');
+						XMLHttpRequest.setRequestHeader("X-RequestDigest", $("#__REQUESTDIGEST").val());
+						XMLHttpRequest.setRequestHeader("Content-type", "application/json;odata=verbose");
+					},
+					success: function(resp) {
+						console.log("request made");
+						//console.log(resp)
+					},
+					error: function (err) {
+						//console.log(err);
+					}
+				})
+			}
 		}
 	}
 </script>
@@ -90,5 +129,9 @@
 	
 	.remove-from-view {
 		display:none;
+	}
+	
+	.top-border {
+		
 	}
 </style>
