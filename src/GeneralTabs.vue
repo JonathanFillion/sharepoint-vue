@@ -1,8 +1,8 @@
 <template>
   <div class="text-small">
-  	<div ref="pre" class="clickable" v-bind:class="{text_selected: 'pre' === this.isDisplayed}" v-on:click="click('pre')">Pre-Assessment</div>
-  	<div ref="ass" class="clickable" v-bind:class="{text_selected: 'ass' === this.isDisplayed}" v-on:click="click('ass')">Assessment</div>
-  	<div ref="on" class="clickable" v-bind:class="{text_selected: 'on' === this.isDisplayed}" v-on:click="click('on')">Onboarded</div>
+	<div ref="classic" class="clickable" v-bind:class="{text_selected: 'classic' === this.isDisplayed}" v-on:click="click('classic')">Classic view</div>
+  	<div ref="ass" class="clickable" v-bind:class="{text_selected: 'ass' === this.isDisplayed}" v-on:click="click('ass')">Assessment view</div>
+  	<div ref="on" class="clickable" v-bind:class="{text_selected: 'on' === this.isDisplayed}" v-on:click="click('on')">Onboarding view</div>
   </div>
 </template>
 <script>

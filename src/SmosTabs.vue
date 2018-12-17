@@ -25,7 +25,7 @@
 	click: function(selection) {
 			this.$emit('hoistDisplayRequest',selection)
 		},
-  },
+	},
   }
 </script>
 
