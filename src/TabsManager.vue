@@ -51,7 +51,8 @@ export default {
 		},
 		displayHelpMessage : function () {
 			var message = "These buttons are filters. Use them to access specific fields. To remove a selection, either click All or click the selected filter again." +
-			"\n\nCes boutons sont des filtres. Utiliser les pour trouver des champs spécifiques. Pour retirer un filtrage, cliquer sur All ou sur la sélection précédente"
+			"\n\nCes boutons sont des filtres. Utiliser les pour trouver des champs spécifiques. Pour retirer un filtrage, cliquer sur All ou sur la sélection précédente\n\n" +
+			"Source code can be found on github ==> https://github.com/JonathanFillion/sharepoint-vue"
 			alert(message)
 		}
 	
