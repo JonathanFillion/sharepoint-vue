@@ -83,16 +83,19 @@
 							//compare to shouldDisplay, if they should, then display
 							if(!shouldDisplayIds.includes(allIds[i][j])){
 								//DateTimeFieldDate have different structure, so double TR is needed
-								if(allIds[i][j].includes("$DateTimeFieldDate"))
-									toTR(toTR(document.getElementById(allIds[i][j])), true).className += " remove-from-view"
-								else
-									toTR(document.getElementById(allIds[i][j])).className += " remove-from-view"
+								try {
+									if(allIds[i][j].includes("$DateTimeFieldDate"))
+										toTR(toTR(document.getElementById(allIds[i][j])), true).className += " remove-from-view"
+									else
+										toTR(document.getElementById(allIds[i][j])).className += " remove-from-view"
+								} catch(err) {}
 							}
 						}
 					}
 				}
 				/*				
 				How to get ids from edit list:
+				//If ever the ids file is lost, or you need all the ids, run this snippet into browser console
 				var ids = document.getElementsByClassName("ms-formbody")
 				for(var i = 0 ; i < ids.length -1 ; i++) {spans.push(ids[i].querySelector('[dir="none"]'))}
 				for(var i = 0 ; i < spans.length; i++) {console.log(spans[i].firstChild.id)}
@@ -105,7 +108,7 @@
 					$.ajax({
 					url: url,
 					method: 'POST',
-					data: "{ '__metadata': { 'type': 'SP.List' }, 'Title': '"+document.getElementById("O365_MainLink_Me").innerText+"' }",
+					data: "{ '__metadata': { 'type': 'SP.List' }, 'Title': '"+document.getElementById("O365_MainLink_Me").innerText+" -- filters'}",
 					beforeSend: function(XMLHttpRequest) {
 						XMLHttpRequest.setRequestHeader('Accept', 'application/json; odata=verbose');
 						XMLHttpRequest.setRequestHeader("X-RequestDigest", $("#__REQUESTDIGEST").val());
@@ -116,7 +119,7 @@
 						//console.log(resp)
 					},
 					error: function (err) {
-						//console.log(err);
+						console.log(err);
 					}
 				})
 			}
