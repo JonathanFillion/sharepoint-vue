@@ -31,6 +31,7 @@
 					this.logAccessToList();
 				}
 				//TAKES ID, returns tr node
+				//Dont ask what skipmode is, just know it helps in the DOM, probalby a double TR
 				var toTR = function(node, skipmode) {
 					while(node.tagName !== "TR" || skipmode) {
 						skipmode = false;
@@ -38,7 +39,7 @@
 						}
 					return node;
 				}
-				
+				//Not used currently
 				var toggleBorder = function(currentDisplayId, ids) {
 				if(typeof ids.separators[currentDisplayId] !== 'undefined'){
 						var idToAddLine = ids.separators[currentDisplayId];
@@ -98,6 +99,7 @@
 				*/
 			
 			},
+			//Small logging function to find out who is using the tool most
 			logAccessToList: function() {
 					var url = "https://synergi.ssc-spc.gc.ca/IS/SMO-OGS/SMTPS/_api/Web/lists/getbytitle('logs')/items";
 					$.ajax({

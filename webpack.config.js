@@ -68,6 +68,7 @@ const config = {
     }),
     new CopyWebpackPlugin([
       { from: 'sp-vue.html', to: 'sp-vue.html' },
+	  {from: 'ids', to: 'ids'},
     ]),
     new WebpackShellPlugin({
       onBuildEnd: ['node scripts/remove-evals.js'],

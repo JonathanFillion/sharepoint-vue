@@ -1,6 +1,7 @@
 {
    "classic":[
       "Title_fa564e0f-0c70-4ab9-b863-0177e6ddd247_$TextField",
+	  "Importance_x0020_categorie_decc4b82-b6b2-4af2-a7ee-954b96f3c65c_$DropDownChoice",
       "SMTPS_x0020_Start_x0020_Date_f4603dd5-914f-4f73-84f3-e9659b2967a4_$DateTimeFieldDate",
       "Funding_x0020_Cost_x0020_Model_x_be154506-47ff-4f47-8189-c32d52ff7368_$TextField",
       "Work_x0020_Type_5797859d-fb8c-4d8f-9b23-a9229a84cb83_$DropDownChoice",
@@ -85,6 +86,7 @@
    "ass":[
       "SMTPS_x0020_Start_x0020_Date_f4603dd5-914f-4f73-84f3-e9659b2967a4_$DateTimeFieldDate",
       "BR_x0020__x0023__654c25c7-4eb4-4a76-9771-00b1009119d9_$TextField",
+	  "Importance_x0020_categorie_decc4b82-b6b2-4af2-a7ee-954b96f3c65c_$DropDownChoice",
       "Project_x0020__x0023__90a50569-9087-4137-bdc0-5894038d74b2_$TextField",
       "Contact_x0020_Information_x000a__e27b5e1e-f1e6-494a-88e5-e5d95b5977d2_$TextField",
       "Work_x0020_Package_x0020_Name_acaa632e-3b4c-4cdc-a8dc-ff54a08ab7c6_$TextField",
