@@ -82,6 +82,7 @@
 	  "Close_x002d_out_x0020_and_x0020__5b9ae445-92c4-444c-be25-5940273645f8_$DropDownChoice"
    ],
    "ass":[
+	  "Title_fa564e0f-0c70-4ab9-b863-0177e6ddd247_$TextField",
       "SMTPS_x0020_Start_x0020_Date_f4603dd5-914f-4f73-84f3-e9659b2967a4_$DateTimeFieldDate",
       "BR_x0020__x0023__654c25c7-4eb4-4a76-9771-00b1009119d9_$TextField",
 	  "Importance_x0020_categorie_decc4b82-b6b2-4af2-a7ee-954b96f3c65c_$DropDownChoice",

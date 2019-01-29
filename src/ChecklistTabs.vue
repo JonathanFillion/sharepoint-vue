@@ -1,14 +1,14 @@
 <template>
   <div class="text-small">
-  	<div class="clickable" v-bind:class="{text_selected: 'check_sacm' === this.isDisplayed}" v-on:click="click('check_sacm')">Checklist SACM</div>
-  	<div class="clickable" v-bind:class="{text_selected: 'check_esd' === this.isDisplayed}" v-on:click="click('check_esd')">Checklist ESD</div>
-  	<div class="clickable" v-bind:class="{text_selected: 'check_ecc' === this.isDisplayed}" v-on:click="click('check_ecc')">Checklist ECC</div>
-  	<div class="clickable" v-bind:class="{text_selected: 'check_mds' === this.isDisplayed}" v-on:click="click('check_mds')">Checklist MDS</div>
-  	<div class="clickable" v-bind:class="{text_selected: 'check_chg' === this.isDisplayed}" v-on:click="click('check_chg')">Checklist CHG</div>
-  	<div class="clickable" v-bind:class="{text_selected: 'check_rfl' === this.isDisplayed}" v-on:click="click('check_rfl')">Checklist RFL</div>
-  	<div class="clickable" v-bind:class="{text_selected: 'check_im_pm' === this.isDisplayed}" v-on:click="click('check_im_pm')">Checklist IM-PM</div>
-  	<div class="clickable" v-bind:class="{text_selected: 'check_itc' === this.isDisplayed}" v-on:click="click('check_itc')">Checklist ITC</div>
-  	<div class="clickable" v-bind:class="{text_selected: 'check_opr' === this.isDisplayed}" v-on:click="click('check_opr')">Checklist OPR</div>
+  	<div class="clickable" v-bind:class="{text_selected: 'check_sacm' === this.isDisplayed}" v-on:click="click('check_sacm')">SACM</div>
+  	<div class="clickable" v-bind:class="{text_selected: 'check_esd' === this.isDisplayed}" v-on:click="click('check_esd')">ESD</div>
+  	<div class="clickable" v-bind:class="{text_selected: 'check_ecc' === this.isDisplayed}" v-on:click="click('check_ecc')">ECC</div>
+  	<div class="clickable" v-bind:class="{text_selected: 'check_mds' === this.isDisplayed}" v-on:click="click('check_mds')">MDS</div>
+  	<div class="clickable" v-bind:class="{text_selected: 'check_chg' === this.isDisplayed}" v-on:click="click('check_chg')">CHG</div>
+  	<div class="clickable" v-bind:class="{text_selected: 'check_rfl' === this.isDisplayed}" v-on:click="click('check_rfl')">RFL</div>
+  	<div class="clickable" v-bind:class="{text_selected: 'check_im_pm' === this.isDisplayed}" v-on:click="click('check_im_pm')">IM-PM</div>
+  	<div class="clickable" v-bind:class="{text_selected: 'check_itc' === this.isDisplayed}" v-on:click="click('check_itc')">ITC</div>
+  	<div class="clickable" v-bind:class="{text_selected: 'check_opr' === this.isDisplayed}" v-on:click="click('check_opr')">OPR</div>
   </div>
 </template>
 <script>
