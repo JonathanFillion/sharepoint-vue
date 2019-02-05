@@ -8,7 +8,7 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
-What things you need to install the software and how to install them
+In order to build the deployment files, you need nodejs. If you don't have admin privileges, you can download the zip folder the run nodejs inside the folder.
 
 ```
 NodeJs : https://nodejs.org/en/download/
