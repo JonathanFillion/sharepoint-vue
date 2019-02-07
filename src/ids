@@ -5,8 +5,6 @@
       "Title_fa564e0f-0c70-4ab9-b863-0177e6ddd247_$TextField",
 	  "Importance_x0020_categorie_decc4b82-b6b2-4af2-a7ee-954b96f3c65c_$DropDownChoice",
       "SMTPS_x0020_Start_x0020_Date_f4603dd5-914f-4f73-84f3-e9659b2967a4_$DateTimeFieldDate",
-      "Funding_x0020_Cost_x0020_Model_x_be154506-47ff-4f47-8189-c32d52ff7368_$TextField",
-      "Work_x0020_Type_5797859d-fb8c-4d8f-9b23-a9229a84cb83_$DropDownChoice",
       "WorkPackage_x0020_Type_1f904cfa-972d-4b4f-8191-82267f58cb18_$DropDownChoice",
       "Service_x0020_Name_b26bbaa7-df00-486f-b561-4db5d0097fac_$TextField",
       "BR_x0020__x0023__654c25c7-4eb4-4a76-9771-00b1009119d9_$TextField",
@@ -73,13 +71,8 @@
       "ITC_x0020_contact_x0020_informat_f54a9713-adfb-4147-899c-7ff446baec3b_$TextField_spSave",
       "OPR_x0020_Status_3acbdca3-94af-4ecc-87be-4a083ee36b21_$DropDownChoice",
       "OPR_x0020_Status_x0020_Notes_d39831be-de62-4ee7-ace2-ceccde6d2441_$TextField",
-      "OPR_x0020_Action_x0020_Items_51c21b4c-59f0-4d27-8e20-55debafaec1d_$TextField",
-	  "Is_x0020_Service_x0020_Support_x_cdec7353-d411-4c1d-b3af-7af1de54ebf8_$DropDownChoice",
-	  "SMTPS_x0020_Integrator_x0020_Est_ced2b827-15d5-4504-a716-6e9d95efcd53_$NumberField",
-	  "Service_x0020_Support_x0020_Desi_678cf2c5-5bc2-4050-a0fd-ebf001388800_$DropDownChoice",
-	  "John_x0020__x002d__x0020_Estimat_419f1926-7a45-4d17-ab91-020942a05329_$NumberField",
-	  "Is_x0020_TFA_x0020_required_704b3299-6ca9-4e9d-8f9c-b8a85094c5ab_$DropDownChoice",
-	  "Close_x002d_out_x0020_and_x0020__5b9ae445-92c4-444c-be25-5940273645f8_$DropDownChoice"
+      "OPR_x0020_Action_x0020_Items_51c21b4c-59f0-4d27-8e20-55debafaec1d_$TextField"
+	  
    ],
    "ass":[
 	  "Title_fa564e0f-0c70-4ab9-b863-0177e6ddd247_$TextField",
@@ -96,23 +89,32 @@
       "Work_x0020_package_x0020_end_x00_3559fa2d-7d38-4e47-a06b-3a88ccae9b23_$DateTimeFieldTopTable",
       "Service_x0020_Name_b26bbaa7-df00-486f-b561-4db5d0097fac_$TextField",
       "Work_x0020_Package_x0020_Descrip_22e20e88-df93-40c3-b34f-1d50b02671a2_$TextField",
-      "Funding_x0020_Cost_x0020_Model_x_be154506-47ff-4f47-8189-c32d52ff7368_$TextField",
+      "Is_x0020_Service_x0020_Support_x_cdec7353-d411-4c1d-b3af-7af1de54ebf8_$DropDownChoice",
       "Overall_x0020_Work_x0020_Package_10d2dfd7-ab69-4ede-8ffe-aa370f04b775_$TextField",
       "Work_x0020_Package_x0020_AKA_0dc491b5-d34c-4532-aa82-0ed97dd099ee_$TextField",
-      "OPR_x0020__x002d__x002d__x0020_A1_4d4e58e3-ae7e-42e8-b4be-6f1dfd42fdca_$DropDownChoice",
-      "SACM_x0020__x002d__x002d__x0020_2_368e0d14-6089-483d-92fd-41cdf96977d5_$DropDownChoice",
-      "SACM_x0020__x002d__x002d__x0020_7_c91f29cf-ba6f-463b-b121-14027ab52585_$DropDownChoice",
-      "SACM_x0020__x002d__x002d__x0020_12_b11f41a1-430b-4fb6-8089-a50da4e85c56_$DropDownChoice",
-      "SACM_x0020__x002d__x002d__x0020_16_99a8155a-2840-48c0-ad5e-a51e7adfca0b_$DropDownChoice",
-      "CHG_x0020__x002d__x002d__x0020_A_7ed2e015-986a-430b-9a17-03b8cb753d58_$DropDownChoice",
-      "IM_x002d_PM_x0020__x002d__x002d__c91bd350-6434-4ba4-8980-e615847e20c5_$DropDownChoice",
-      "ECC_x0020__x002d__x002d__x0020_A_a5de9fb5-38cc-4836-b0d9-8edc17cd7813_$DropDownChoice",
-      "MDS_x0020__x002d__x002d__x0020_A_5d30d68d-44b1-4ab1-87b6-bd110245e038_$DropDownChoice",
-      "ESD_x0020__x002d__x002d__x0020_A_b10dc89e-5063-4dfe-ab9c-f9797f93bbeb_$DropDownChoice",
-      "RFL_x0020__x002d__x002d__x0020_A1_5a7f63c7-a406-4e25-9b16-3cca3b9f72a8_$DropDownChoice",
-      "ITC_x0020__x002d__x002d__x0020_O_46b39692-8243-459f-b353-4f1f73c33957_$DropDownChoice",
+      "OPR_x0020__x002d__x002d__x0020_O2_8faeefe6-f2f2-4c4d-8a3b-750210575042_$DropDownChoice",
+	  "SACM_x0020__x002d__x002d__x0020_26_a415fc7c-3e3c-4f21-a6d2-106dd089ad56_$DropDownChoice",
+	  "SACM_x0020__x002d__x002d__x0020_27_929a35ef-b775-45b1-b272-26b5cca89324_$DropDownChoice",
+		"SACM_x0020__x002d__x002d__x0020_28_222b7f1b-32a2-44ba-b111-deb946af41b7_$DropDownChoice",
+		"SACM_x0020__x002d__x002d__x0020_29_b4ab8efa-ed1e-4665-8365-dbf815128b43_$DropDownChoice",
+		"SACM_x0020__x002d__x002d__x0020_30_234437c9-e6ad-4aa1-8ba6-1a7ba83e628f_$DropDownChoice",
+		"CHG_x0020__x002d__x002d__x0020_O0_cedfe277-9f47-4dd1-9e02-6672a54e82ce_$DropDownChoice",
+		"IM_x002f_PM_x0020__x002d__x002d_5_92378178-72a9-4e6d-8aef-4b8c000fe51b_$DropDownChoice",
+		"ECC_x0020__x002d__x002d__x0020_O10_d6b88cdb-ff50-41d2-a7e0-9eac4c6a6164_$DropDownChoice",
+		"MDS_x0020__x002d__x002d__x0020_O3_d53a5563-ee3a-4e48-9697-5b52e6f59194_$DropDownChoice",
+		"ESD_x0020__x002d__x002d__x0020_O11_81d6a6d4-dd19-4c71-a855-b92140074ad8_$DropDownChoice",
+		"RFL_x0020__x002d__x002d__x0020_O25_e7a1bdc2-6d32-49f6-aa34-0429f90104a1_$DropDownChoice",
+		"ITC_x0020__x002d__x002d__x0020_O1_24c16b09-e40f-4016-9f52-9517ae1cf83a_$DropDownChoice",
 	  "Service_x0020_Support_x0020_Desi_678cf2c5-5bc2-4050-a0fd-ebf001388800_$DropDownChoice",
-	  "Is_x0020_TFA_x0020_required_704b3299-6ca9-4e9d-8f9c-b8a85094c5ab_$DropDownChoice"
+	  "Is_x0020_TFA_x0020_required_704b3299-6ca9-4e9d-8f9c-b8a85094c5ab_$DropDownChoice",
+	  "Assessment_x0020_notes_607cdd11-9ef7-4ec9-bfc1-515633846220_$TextField_spSave",
+	  "Is_x0020_Service_x0020_Offering__9113dad2-4cd4-4ada-8cff-7257731c325d_$DropDownChoice",
+	  "SMTPS_x0020_Integrator_x0020_Est_ced2b827-15d5-4504-a716-6e9d95efcd53_$NumberField",
+	  "Current_x0020_priority_bebb46ff-f764-410a-b766-1a451e01f560_$DropDownChoice",
+	  "John_x0020__x002d__x0020_Estimat_419f1926-7a45-4d17-ab91-020942a05329_$NumberField",
+	  "Close_x002d_out_x0020_and_x0020__5b9ae445-92c4-444c-be25-5940273645f8_$DropDownChoice",
+	  "Project_x0020_Size_b651d3ac-dd2a-49bc-8132-948d65b1bb44_$DropDownChoice",
+	  "Project_x0020_Complexity_65001f36-58b4-463a-94f7-831405270c55_$DropDownChoice"
    ],
    "on":[
 		"OPR_x0020__x002d__x002d__x0020_O2_8faeefe6-f2f2-4c4d-8a3b-750210575042_$DropDownChoice",
@@ -127,7 +129,8 @@
 		"MDS_x0020__x002d__x002d__x0020_O3_d53a5563-ee3a-4e48-9697-5b52e6f59194_$DropDownChoice",
 		"ESD_x0020__x002d__x002d__x0020_O11_81d6a6d4-dd19-4c71-a855-b92140074ad8_$DropDownChoice",
 		"RFL_x0020__x002d__x002d__x0020_O25_e7a1bdc2-6d32-49f6-aa34-0429f90104a1_$DropDownChoice",
-		"ITC_x0020__x002d__x002d__x0020_O1_24c16b09-e40f-4016-9f52-9517ae1cf83a_$DropDownChoice"
+		"ITC_x0020__x002d__x002d__x0020_O1_24c16b09-e40f-4016-9f52-9517ae1cf83a_$DropDownChoice",
+		"Close_x002d_out_x0020_and_x0020__5b9ae445-92c4-444c-be25-5940273645f8_$DropDownChoice"
    ],
    "sacm":[
       "SACM_x0020_Status_5f71d162-64ef-4789-bfc8-220c528d4b4c_$DropDownChoice",
@@ -198,34 +201,39 @@
    "check_opr":[
       "OPR_x0020__x002d__x002d__x0020_A_390468bf-7069-4e23-84a3-30923696eef3_$DropDownChoice",
       "OPR_x0020__x002d__x002d__x0020_A0_730d4aad-1eb9-496b-9a86-4361e6e50838_$DropDownChoice",
-      "OPR_x0020__x002d__x002d__x0020_A1_4d4e58e3-ae7e-42e8-b4be-6f1dfd42fdca_$DropDownChoice",
 	  "OPR_x0020__x002d__x002d__x0020_A2_78f598ca-5dc8-4165-9fe9-5f263d2c1950_$TextField",
       "OPR_x0020__x002d__x002d__x0020_A3_9e180529-afd1-4b0e-8d2e-14818d9ad969_$DropDownChoice",
       "OPR_x0020__x002d__x002d__x0020_A4_54a6c61d-8849-4de7-92ea-5739d0709aa2_$TextField",
       "OPR_x0020__x002d__x002d__x0020_O_ad9ba194-c1e2-437b-a51f-c4e3b5f4a294_$DropDownChoice",
       "OPR_x0020__x002d__x002d__x0020_O0_4a109c18-3908-43e6-85dd-b6f58b82756a_$DropDownChoice",
       "OPR_x0020__x002d__x002d__x0020_O1_676e83bd-6892-42d1-bdb6-1b0a4bb35627_$DropDownChoice",
-      "OPR_x0020__x002d__x002d__x0020_O2_8faeefe6-f2f2-4c4d-8a3b-750210575042_$DropDownChoice"
+      "OPR_x0020__x002d__x002d__x0020_O2_8faeefe6-f2f2-4c4d-8a3b-750210575042_$DropDownChoice",
+	  "OPR_x0020_Status_x0020_Notes_d39831be-de62-4ee7-ace2-ceccde6d2441_$TextField",
+	  "OPR_x0020__x002d__x002d__x0020_O1_676e83bd-6892-42d1-bdb6-1b0a4bb35627_$DropDownChoice",
+	  "OPR_x0020__x002d__x002d__x0020_O0_4a109c18-3908-43e6-85dd-b6f58b82756a_$DropDownChoice",
+	  "OPR_x0020__x002d__x002d__x0020_O_ad9ba194-c1e2-437b-a51f-c4e3b5f4a294_$DropDownChoice",
+	  "OPR_x0020__x002d__x002d__x0020_A0_730d4aad-1eb9-496b-9a86-4361e6e50838_$DropDownChoice",
+	  "OPR_x0020__x002d__x002d__x0020_A_390468bf-7069-4e23-84a3-30923696eef3_$DropDownChoice"
    ],
    "check_sacm":[
       "SACM_x0020__x002d__x002d__x0020__687c049e-b5fd-471d-94e7-45730139acd5_$DropDownChoice",
       "SACM_x0020__x002d__x002d__x0020_0_d06d01fe-606b-4177-92c5-12145fb732bc_$DropDownChoice",
       "SACM_x0020__x002d__x002d__x0020_1_c9699316-2edd-4cee-9887-99c9567f7e73_$DropDownChoice",
-      "SACM_x0020__x002d__x002d__x0020_2_368e0d14-6089-483d-92fd-41cdf96977d5_$DropDownChoice",
+      
       "SACM_x0020__x002d__x002d__x0020_3_bff9a650-2992-49dd-8c6f-258263655b5d_$DropDownChoice",
       "SACM_x0020__x002d__x002d__x0020_4_7823935d-869a-4557-8fa3-a2954a30e342_$TextField",
       "SACM_x0020__x002d__x002d__x0020_5_c731aa59-1085-414b-87d4-e71c4bf95422_$DropDownChoice",
       "SACM_x0020__x002d__x002d__x0020_6_655e0b4f-4f65-4a87-a94d-adaec9ac4a27_$TextField",
-      "SACM_x0020__x002d__x002d__x0020_7_c91f29cf-ba6f-463b-b121-14027ab52585_$DropDownChoice",
+      
       "SACM_x0020__x002d__x002d__x0020_8_9658e402-d7bd-4796-b100-7e0e2f4d4387_$DropDownChoice",
       "SACM_x0020__x002d__x002d__x0020_9_b6b0f968-cd58-45bc-bd13-4c232ab77d28_$TextField",
       "SACM_x0020__x002d__x002d__x0020_10_f1a770bd-296b-4098-b2b3-08213ac1b5a3_$DropDownChoice",
       "SACM_x0020__x002d__x002d__x0020_11_5876f34d-3d98-46d6-9545-8ec23e878796_$NumberField",
-      "SACM_x0020__x002d__x002d__x0020_12_b11f41a1-430b-4fb6-8089-a50da4e85c56_$DropDownChoice",
+     
       "SACM_x0020__x002d__x002d__x0020_13_4c992ea5-ce1c-4a33-8b4a-e94877bfe425_$TextField",
       "SACM_x0020__x002d__x002d__x0020_14_948a7031-817a-4f81-9419-0aa4a4d276e6_$DropDownChoice",
       "SACM_x0020__x002d__x002d__x0020_15_f26f4cef-9836-4fb9-a2f6-09b7c3e337bd_$TextField",
-      "SACM_x0020__x002d__x002d__x0020_16_99a8155a-2840-48c0-ad5e-a51e7adfca0b_$DropDownChoice",
+  
       "SACM_x0020__x002d__x002d__x0020_17_7c3807b5-0eab-41d4-8010-f7d00907863d_$TextField",
       "SACM_x0020__x002d__x002d__x0020_18_f392713c-0263-45fa-a08f-8cb39d6d9b8d_$DropDownChoice",
       "SACM_x0020__x002d__x002d__x0020_19_e429fdbb-d478-448e-8509-de18d759c479_$TextField",
@@ -244,17 +252,16 @@
 	  "SACM_x0020_Status_x0020_Notes_cc303424-b7b2-4a60-8510-ce3615aeb6d8_$TextField"
    ],
    "check_chg":[
-      "CHG_x0020__x002d__x002d__x0020_A_7ed2e015-986a-430b-9a17-03b8cb753d58_$DropDownChoice",
       "CHG_x0020__x002d__x002d__x0020_A1_f906bc4c-b57d-4ff6-bbd6-0375765118ea_$DropDownChoice",
       "CHG_x0020__x002d__x002d__x0020_A2_de9a5b42-6387-4f13-9f96-f47f611da3b4_$NumberField",
       "CHG_x0020__x002d__x002d_On_x002d_d0653df7-d60f-4932-b4f9-10a5196e3e89_$DropDownChoice",
       "CHG_x0020__x002d__x002d__x0020_O_339fcadb-d9c4-4fc8-83fc-c0a86e5d3502_$DropDownChoice",
       "CHG_x0020__x002d__x002d__x0020_O0_cedfe277-9f47-4dd1-9e02-6672a54e82ce_$DropDownChoice",
 	  "CHG_x002f_RL_x0020_contact_x0020_0f9fb576-f4ff-439a-ab37-2dcd38aa1cd2_$TextField_spSave",
-	  "ESD_x0020_Status_x0020_Notes_82e78895-5399-4534-8adf-aa389741e5f8_$TextField"
+	  "CHG_x002f_RL_x0020_Status_x0020_0_cc993ab6-a065-40e2-8503-ab7ccf5520ea_$TextField"
    ],
    "check_im_pm":[
-      "IM_x002d_PM_x0020__x002d__x002d__c91bd350-6434-4ba4-8980-e615847e20c5_$DropDownChoice",
+      
       "IM_x002d_PM_x0020__x002d__x002d_0_035c548f-909e-4526-b23c-4f34531499fd_$DropDownChoice",
       "IM_x002d_PM_x0020__x002d__x002d_1_dc84eee5-6dac-4a42-bc33-f30db7b47614_$DropDownChoice",
       "IM_x002f_PM_x0020__x002d__x002d_0_67a8cc91-3bb4-46e0-825a-b5b44fd1b8d0_$DropDownChoice",
@@ -266,7 +273,7 @@
 	  "PM_x0020_Status_x0020_Notes_cfcb452e-36cb-4794-a82a-e587623ea770_$TextField"
    ],
    "check_ecc":[
-      "ECC_x0020__x002d__x002d__x0020_A_a5de9fb5-38cc-4836-b0d9-8edc17cd7813_$DropDownChoice",
+      
       "ECC_x0020__x002d__x002d__x0020_A0_823cd0b5-ba2a-45fb-aab9-2452a04fd555_$DropDownChoice",
       "EMSO_x002f_ECC_x0020_contact_x00_378be789-4e83-4161-b27c-238eb5d0726f_$TextField_spSave",
       "ECC_x0020__x002d__x002d__x0020_A2_01922ba8-c8f1-4fd3-b87a-8fdcc396b035_$DropDownChoice",
@@ -287,7 +294,7 @@
 	  "EMSO_x002f_ECC_x0020_Status_x002_a77e0fc0-d774-4b6e-9422-f9c9de52ecce_$TextField"
    ],
    "check_mds":[
-      "MDS_x0020__x002d__x002d__x0020_A_5d30d68d-44b1-4ab1-87b6-bd110245e038_$DropDownChoice",
+     
       "MDS_x0020__x002d__x002d__x0020_A0_652690b1-140c-40f5-adcf-c27457a1e2d6_$DropDownChoice",
       "MDS_x0020_contact_x0020_informat_9c06ab67-56fd-4c20-97c9-73fbaa9219f1_$TextField_spSave",
       "MDS_x0020__x002d__x002d__x0020_A2_d03ac3e6-1032-473c-98d4-9275f0a2148f_$DropDownChoice",
@@ -300,7 +307,7 @@
 	  "MDS_x0020_Status_x0020_Notes_e9cc20b7-67ca-4348-af28-17e117ca2637_$TextField"
    ],
    "check_esd":[
-      "ESD_x0020__x002d__x002d__x0020_A_b10dc89e-5063-4dfe-ab9c-f9797f93bbeb_$DropDownChoice",
+      
       "ESD_x0020__x002d__x002d__x0020_A0_d9496a43-f040-489b-ac39-2cc3530434b5_$DropDownChoice",
       "ESD_x0020__x002d__x002d__x0020_A1_55969891-9208-46d5-8fad-480e5bf2add7_$DropDownChoice",
       "ESD_x0020__x002d__x002d__x0020_A2_42893654-bdf2-461d-b2f9-3999be9e2831_$DropDownChoice",
@@ -322,13 +329,14 @@
       "ESD_x0020__x002d__x002d__x0020_O9_25a2c574-dba2-45a3-80e4-47bcacf4e6e5_$DropDownChoice",
       "ESD_x0020__x002d__x002d__x0020_O10_703baec4-f069-41e9-9914-6554565a3443_$DropDownChoice",
       "ESD_x0020__x002d__x002d__x0020_O11_81d6a6d4-dd19-4c71-a855-b92140074ad8_$DropDownChoice",
-	  "ESD_x0020_Status_x0020_Notes_82e78895-5399-4534-8adf-aa389741e5f8_$TextField"
+	  "ESD_x0020_Status_x0020_Notes_82e78895-5399-4534-8adf-aa389741e5f8_$TextField",
+	  "ESD_x0020__x002d__x002d__x0020_A_630e49c7-1c3d-48c5-9c47-e28a75fc60fe_$DropDownChoice"
    ],
    "check_rfl":[
       "RFL_x0020__x002d__x002d__x0020_A_c81d9fbe-861c-4a04-8292-a56cc0c066d1_$DropDownChoice",
       "RFL_x0020__x002d__x002d__x0020_A0_ec45cd26-6ab4-4d97-b6d4-a9f69e77590f_$DropDownChoice",
       "RFL_x0020__x002d__x002d__x0020_O_bf01e9eb-1915-43c5-8c9e-dfa2e7968c63_$DropDownChoice",
-      "RFL_x0020__x002d__x002d__x0020_A1_5a7f63c7-a406-4e25-9b16-3cca3b9f72a8_$DropDownChoice",
+      
       "RFL_x0020_contact_x0020_informat_3bafc1ae-dcad-47fd-863f-adf34da782f9_$TextField_spSave",
       "RFL_x0020__x002d__x002d__x0020_A3_b3782c89-74ea-48f6-aa3c-d4b9e4097d06_$DropDownChoice",
       "RFL_x0020__x002d__x002d__x0020_A4_8113850b-77c0-47ce-9a79-13df298690e2_$NumberField",
@@ -365,7 +373,7 @@
       "ITC_x0020__x002d__x002d__x0020_A_92ded319-8134-4879-8bd9-11d5bcf79446_$DropDownChoice",
       "ITC_x0020__x002d__x002d__x0020_A0_c8e4e0b2-7335-43b4-8340-1f74dfc45494_$DropDownChoice",
       "ITC_x0020__x002d__x002d__x0020_A1_3f3e295b-d4bb-4ac4-99d8-cc84bbc80b8b_$DropDownChoice",
-      "ITC_x0020__x002d__x002d__x0020_O_46b39692-8243-459f-b353-4f1f73c33957_$DropDownChoice",
+     
       "ITC_x0020_contact_x0020_informat_f54a9713-adfb-4147-899c-7ff446baec3b_$TextField_spSave",
       "ITC_x0020__x002d__x002d__x0020_A3_df38490f-ed64-4d9d-a032-4f012780951f_$DropDownChoice",
       "ITC_x0020__x002d__x002d__x0020_A4_27ed2308-a5c6-4253-9d92-269b574ae0c8_$NumberField",

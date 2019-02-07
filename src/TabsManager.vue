@@ -1,25 +1,28 @@
 <template>
   <div class="header-flex">
   	<div class="cell-flex button-format">
-  		<div class="center-text clickable unselectable" v-on:click="mainSelection == 'general' ? mainSelection = '':mainSelection = 'general'">General</div>
+  		<div class="center-text clickable unselectable" v-on:click="mainSelection == 'general' ? mainSelection = '':mainSelection = 'general'" 
+		title="Main area to take notes, get an overview of the work package">General</div>
   		<div v-if="mainSelection == 'general'">
   			<GeneralTabs :isDisplayed="this.shouldDisplay" v-on:hoistDisplayRequest="newDisplay" class="border unselectable"></GeneralTabs>
   		</div>
   	</div>
   	<div class="cell-flex button-format">
-  		<div class="center-text clickable unselectable" v-on:click="mainSelection == 'smos' ? mainSelection = '':mainSelection = 'smos'">SMOS</div>
+  		<div class="center-text clickable unselectable" v-on:click="mainSelection == 'smos' ? mainSelection = '':mainSelection = 'smos'"
+		title="Fill information about SMOS areas, this is temporary content">SMOS</div>
   		<div v-if="mainSelection == 'smos'">
   			<SmosTabs :isDisplayed="this.shouldDisplay" v-on:hoistDisplayRequest="newDisplay" class="border unselectable"></SmosTabs>
   		</div>
   	</div>
   	<div class="cell-flex button-format">
-  		<div class="center-text clickable unselectable" v-on:click="mainSelection == 'checklist' ? mainSelection = '':mainSelection = 'checklist'">Checklist</div>
+  		<div class="center-text clickable unselectable" v-on:click="mainSelection == 'checklist' ? mainSelection = '':mainSelection = 'checklist'"
+		title="Checklist for each SMOS">Checklist</div>
   		<div v-if="mainSelection == 'checklist'">
   			<ChecklistTabs :isDisplayed="this.shouldDisplay"  v-on:hoistDisplayRequest="newDisplay" class="border unselectable"></ChecklistTabs>
   		</div>
   	</div>
 	<div class="cell-flex clickable  button-format" v-on:click="mainSelection = 'nofilter';newDisplay('all')">
-  		<div class="center-text clickable unselectable">All</div>
+  		<div class="center-text clickable unselectable" title="Display all the fields of the list">All</div>
   	</div>
 	<div class="unselectable button-format clickable">
 		<div class="question-font center-text" v-on:click="displayHelpMessage()">?</div>
