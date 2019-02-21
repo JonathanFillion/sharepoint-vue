@@ -13,6 +13,7 @@
       "Work_x0020_Package_x0020_Name_acaa632e-3b4c-4cdc-a8dc-ff54a08ab7c6_$TextField",
       "Work_x0020_Package_x0020_Descrip_22e20e88-df93-40c3-b34f-1d50b02671a2_$TextField",
       "Current_x0020_PGOF_x0020_Gate_19df2174-b0a4-438b-872f-6a021b00dc1c_$DropDownChoice",
+	  "Current_x0020_priority_bebb46ff-f764-410a-b766-1a451e01f560_$DropDownChoice",
       "SIT_x0020_Lead_fac1f433-88ca-4c55-a286-20ec09996e3f_$DropDownChoice",
       "Escalation_x0020_To_35aa76ec-93ec-42f0-b456-65007486510d_$DropDownChoice",
       "Esclation_x0020_Date_55567ee6-673f-48c7-ab9d-443cc7faa87b_$DateTimeFieldDate",

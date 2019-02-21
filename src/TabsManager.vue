@@ -7,13 +7,13 @@
   			<GeneralTabs :isDisplayed="this.shouldDisplay" v-on:hoistDisplayRequest="newDisplay" class="border unselectable"></GeneralTabs>
   		</div>
   	</div>
-  	<div class="cell-flex button-format">
+<!--   	<div class="cell-flex button-format">
   		<div class="center-text clickable unselectable" v-on:click="mainSelection == 'smos' ? mainSelection = '':mainSelection = 'smos'"
 		title="Fill information about SMOS areas, this is temporary content">SMOS</div>
   		<div v-if="mainSelection == 'smos'">
   			<SmosTabs :isDisplayed="this.shouldDisplay" v-on:hoistDisplayRequest="newDisplay" class="border unselectable"></SmosTabs>
   		</div>
-  	</div>
+  	</div> -->
   	<div class="cell-flex button-format">
   		<div class="center-text clickable unselectable" v-on:click="mainSelection == 'checklist' ? mainSelection = '':mainSelection = 'checklist'"
 		title="Checklist for each SMOS">Checklist</div>
