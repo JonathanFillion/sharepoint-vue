@@ -273,7 +273,9 @@
       "IM_x002f_PM_x0020__x002d__x002d_5_92378178-72a9-4e6d-8aef-4b8c000fe51b_$DropDownChoice",
 	  "IM_x0020_Status_x0020_Notes_b316841e-83df-4f2f-acb1-9c17476a33af_$TextField",
 	  "PM_x0020_Status_x0020_Notes_cfcb452e-36cb-4794-a82a-e587623ea770_$TextField",
-	  "IM_x002d_PM_x0020__x002d__x002d__89f729e0-c307-44b6-b61a-058128bee8a2_$DropDownChoice"
+	  "IM_x002d_PM_x0020__x002d__x002d__89f729e0-c307-44b6-b61a-058128bee8a2_$DropDownChoice",
+	  "IM_x002f_PM_x0020__x002d__x002d__c13a7591-edb6-4849-867c-ae357696180a_$DropDownChoice",
+	  "IM_x002f_PM_x0020__x002d__x002d_4_b779ed79-1f12-4bf6-9052-5f1e6f652674_$NumberField"
    ],
    "check_ecc":[
       
