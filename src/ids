@@ -64,7 +64,11 @@
    ],
    
    "wp_over":[
+		"Check_x0020_Point_x0020_Status_b983c55c-1012-4931-ab39-d61667861aa7_$DropDownChoice",
 		"Overall_x0020_Status_9593c99d-e6b9-4234-abfa-3c6497d3f227_$DropDownChoice",
+		"IO_x002d_CODE_5accbc0a-790d-4fe6-9279-4b6d2b142da3_$TextField",
+		"Funds_x0020_code_f2da310f-deed-452c-b1b3-9d154c061736_$TextField",
+		"BF_x0020_Date_ae5fa0ce-553a-4e16-938a-20052e19d49c_$DateTimeFieldDate",
 		"Briefing_x0020_Note_6d72e1bf-6ede-4102-b1ef-6f96a0dd75b4_$TextField",
 		"Title_fa564e0f-0c70-4ab9-b863-0177e6ddd247_$TextField",
 		"Contact_x0020_Information_x000a__e27b5e1e-f1e6-494a-88e5-e5d95b5977d2_$TextField",
