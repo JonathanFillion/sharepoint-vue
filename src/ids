@@ -24,9 +24,7 @@
       "BF_x0020_Date_ae5fa0ce-553a-4e16-938a-20052e19d49c_$DateTimeFieldDate",
       "SM_x0020_Go_x0020_Live_x0020_Dat_39a3274b-38ef-46a9-a669-b54b9e9e12cb_$DateTimeFieldDate",
       "SM_x0020_Live_x0020_Details_091035ad-692e-4577-b0d9-870773144a50_$TextField",
-      "Project_x0020_Issues_x0020_for_x_ec5fe0d2-5fed-4540-844c-1bb49bbd7074_$TextField",
       "Overall_x0020_Status_9593c99d-e6b9-4234-abfa-3c6497d3f227_$DropDownChoice",
-      "Project_x0020_Risks_x0020_for_x0_d818ad00-963b-4409-b481-e97ca44c7c34_$TextField",
       "Contact_x0020_Information_x000a__e27b5e1e-f1e6-494a-88e5-e5d95b5977d2_$TextField",
       "Project_x0020_Start_x0020_Date_5ffe6d86-dc26-43db-9133-cc76ead2f8df_$DateTimeFieldTopTable",
       "Work_x0020_package_x0020_end_x00_3559fa2d-7d38-4e47-a06b-3a88ccae9b23_$DateTimeFieldTopTable",
@@ -91,16 +89,28 @@
 		"MDS_x0020__x002d__x002d__x0020_O3_d53a5563-ee3a-4e48-9697-5b52e6f59194_$DropDownChoice",
 		"ESD_x0020__x002d__x002d__x0020_O11_81d6a6d4-dd19-4c71-a855-b92140074ad8_$DropDownChoice",
 		"RFL_x0020__x002d__x002d__x0020_O25_e7a1bdc2-6d32-49f6-aa34-0429f90104a1_$DropDownChoice",
+		"Escalation_x0020_To_35aa76ec-93ec-42f0-b456-65007486510d_$DropDownChoice",
+		"Esclation_x0020_Date_55567ee6-673f-48c7-ab9d-443cc7faa87b_$DateTimeFieldDate",
+		"Briefing_x0020_Note_6d72e1bf-6ede-4102-b1ef-6f96a0dd75b4_$TextField",
 		"ITC_x0020__x002d__x002d__x0020_O1_24c16b09-e40f-4016-9f52-9517ae1cf83a_$DropDownChoice",
-		"Close_x002d_out_x0020_and_x0020__5b9ae445-92c4-444c-be25-5940273645f8_$DropDownChoice"
-		
+		"Close_x002d_out_x0020_and_x0020__5b9ae445-92c4-444c-be25-5940273645f8_$DropDownChoice",
+		"Amendment_x0020_TFA_c4b6a432-b534-4393-8797-2b39fb4dd80c_$DropDownChoice",
+		"WorkPackage_x0020_Type_1f904cfa-972d-4b4f-8191-82267f58cb18_$DropDownChoice",
+		"Is_x0020_TFA_x0020_required_704b3299-6ca9-4e9d-8f9c-b8a85094c5ab_$DropDownChoice",
+		"Project_x0020_Start_x0020_Date_5ffe6d86-dc26-43db-9133-cc76ead2f8df_$DateTimeFieldTopTable",
+		"Work_x0020_Package_x0020_AKA_0dc491b5-d34c-4532-aa82-0ed97dd099ee_$TextField",
+		"Work_x0020_package_x0020_end_x00_3559fa2d-7d38-4e47-a06b-3a88ccae9b23_$DateTimeFieldTopTable",
+		"SM_x0020_Live_x0020_Details_091035ad-692e-4577-b0d9-870773144a50_$TextField",
+		"SM_x0020_Go_x0020_Live_x0020_Dat_39a3274b-38ef-46a9-a669-b54b9e9e12cb_$DateTimeFieldDate",
+		"TFA_x0020_fiscal_x0020_year_1e5d15dd-91e3-4069-b31e-2da5236b55b1_$DropDownChoice"
    
    ],
    
    
    "ass":[
-		"Overall_x0020_Status_9593c99d-e6b9-4234-abfa-3c6497d3f227_$DropDownChoice",
-	 "Briefing_x0020_Note_6d72e1bf-6ede-4102-b1ef-6f96a0dd75b4_$TextField",
+	  "Overall_x0020_Status_9593c99d-e6b9-4234-abfa-3c6497d3f227_$DropDownChoice",
+	  "Is_x0020_TFA_x0020_required_704b3299-6ca9-4e9d-8f9c-b8a85094c5ab_$DropDownChoice",
+	  "Briefing_x0020_Note_6d72e1bf-6ede-4102-b1ef-6f96a0dd75b4_$TextField",
 	  "Title_fa564e0f-0c70-4ab9-b863-0177e6ddd247_$TextField",
       "SMTPS_x0020_Start_x0020_Date_f4603dd5-914f-4f73-84f3-e9659b2967a4_$DateTimeFieldDate",
       "BR_x0020__x0023__654c25c7-4eb4-4a76-9771-00b1009119d9_$TextField",
@@ -125,7 +135,6 @@
 	  "SMTPS_x0020_Integrator_x0020_Est_ced2b827-15d5-4504-a716-6e9d95efcd53_$NumberField",
 	  "Current_x0020_priority_bebb46ff-f764-410a-b766-1a451e01f560_$DropDownChoice",
 	  "John_x0020__x002d__x0020_Estimat_419f1926-7a45-4d17-ab91-020942a05329_$NumberField",
-	  "Close_x002d_out_x0020_and_x0020__5b9ae445-92c4-444c-be25-5940273645f8_$DropDownChoice",
 	  "Project_x0020_Size_b651d3ac-dd2a-49bc-8132-948d65b1bb44_$DropDownChoice",
 	  "Project_x0020_Complexity_65001f36-58b4-463a-94f7-831405270c55_$DropDownChoice"
    ],
@@ -420,6 +429,12 @@
       "ITC_x0020__x002d__x002d__x0020_W5_ee23453a-b63b-4fdf-8930-36f7afd39724_$DropDownChoice",
 	  "ITSC_x0020_Status_x0020_Notes_3ca698e0-d0d7-4de0-b32d-62bd453f7ca1_$TextField"
    ],
+   
+   "hidden" : [
+		"Project_x0020_Issues_x0020_for_x_ec5fe0d2-5fed-4540-844c-1bb49bbd7074_$TextField",
+		"Project_x0020_Risks_x0020_for_x0_d818ad00-963b-4409-b481-e97ca44c7c34_$TextField"
+   ],
+   
    "separators" : {
 		"check_sacm" : "SACM_x0020__x002d__x002d__x0020_25_7da729b2-bc2b-4396-ab90-1c420eff1713_$DropDownChoice",
 		"check_chg" : "CHG_x0020__x002d__x002d_On_x002d_d0653df7-d60f-4932-b4f9-10a5196e3e89_$DropDownChoice",
@@ -431,4 +446,7 @@
 		"check_itc": "ITC_x0020__x002d__x002d__x0020_O_46b39692-8243-459f-b353-4f1f73c33957_$DropDownChoice",
 		"check_opr": "OPR_x0020__x002d__x002d__x0020_O_ad9ba194-c1e2-437b-a51f-c4e3b5f4a294_$DropDownChoice"
    }
+   
+   
+   
 }
