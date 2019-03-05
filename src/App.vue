@@ -42,7 +42,7 @@
 		},
 		mounted: function(){
 			//Display to user the selected view name
-			this.$refs.display_selection.innerText = this.translateViewAcronymToHumanReadable(this.shouldDisplay);
+			//this.$refs.display_selection.innerText = this.translateViewAcronymToHumanReadable(this.shouldDisplay);
 			//Search for ###SPECIALTOKEN### and replace for image
 			
 			
