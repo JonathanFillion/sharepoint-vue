@@ -133,13 +133,14 @@
       "Overall_x0020_Work_x0020_Package_10d2dfd7-ab69-4ede-8ffe-aa370f04b775_$TextField",
       "Work_x0020_Package_x0020_AKA_0dc491b5-d34c-4532-aa82-0ed97dd099ee_$TextField",
 	  "Service_x0020_Support_x0020_Desi_678cf2c5-5bc2-4050-a0fd-ebf001388800_$DropDownChoice",
-	  "Is_x0020_TFA_x0020_required_704b3299-6ca9-4e9d-8f9c-b8a85094c5ab_$DropDownChoice",
 	  "Assessment_x0020_notes_607cdd11-9ef7-4ec9-bfc1-515633846220_$TextField_spSave",
 	  "Is_x0020_Service_x0020_Offering__9113dad2-4cd4-4ada-8cff-7257731c325d_$DropDownChoice",
 	  "SMTPS_x0020_Integrator_x0020_Est_ced2b827-15d5-4504-a716-6e9d95efcd53_$NumberField",
 	  "Current_x0020_priority_bebb46ff-f764-410a-b766-1a451e01f560_$DropDownChoice",
 	  "John_x0020__x002d__x0020_Estimat_419f1926-7a45-4d17-ab91-020942a05329_$NumberField",
 	  "Project_x0020_Size_b651d3ac-dd2a-49bc-8132-948d65b1bb44_$DropDownChoice",
+	  "TFA_x0020_fiscal_x0020_year_1e5d15dd-91e3-4069-b31e-2da5236b55b1_$DropDownChoice",
+	  "Amendment_x0020_TFA_c4b6a432-b534-4393-8797-2b39fb4dd80c_$DropDownChoice",
 	  "Project_x0020_Complexity_65001f36-58b4-463a-94f7-831405270c55_$DropDownChoice"
    ],
    "on":[
@@ -322,7 +323,10 @@
       "MDS_x0020__x002d__x002d__x0020_O1_774b38fc-dbb2-4d64-acfd-e924c8f48105_$DropDownChoice",
       "MDS_x0020__x002d__x002d__x0020_O2_9eedd5b4-8546-4257-9015-492974093a9a_$DropDownChoice",
       "MDS_x0020__x002d__x002d__x0020_O3_d53a5563-ee3a-4e48-9697-5b52e6f59194_$DropDownChoice",
-	  "MDS_x0020_Status_x0020_Notes_e9cc20b7-67ca-4348-af28-17e117ca2637_$TextField"
+	  "MDS_x0020_Status_x0020_Notes_e9cc20b7-67ca-4348-af28-17e117ca2637_$TextField",
+	  "MDS_x0020__x002d__x002d__x0020_O4_09b1b6b9-846d-4c02-acd6-529ebb90ac92_$DropDownChoice",
+	  "MDS_x0020__x002d__x002d__x0020_O5_457fa9ea-6859-495a-a207-a384d7897545_$DropDownChoice",
+	  "MDS_x0020__x002d__x002d__x0020_O6_3318ded8-89b0-4cff-8eb4-3a4f9276b344_$DropDownChoice"
    ],
    "check_esd":[
       
