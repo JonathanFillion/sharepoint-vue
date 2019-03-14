@@ -24,9 +24,9 @@
 	<div class="cell-flex clickable  button-format" v-on:click="mainSelection = 'nofilter';newDisplay('all')">
   		<div class="center-text clickable unselectable" title="Display all the fields of the list">All Fields View</div>
   	</div>
-	<div class="unselectable button-format clickable">
+	<!-- <div class="unselectable button-format clickable">
 		<div class="question-font center-text" v-on:click="displayHelpMessage()">?</div>
-	</div>
+	</div> -->
   </div>
 </template>
 <script>
