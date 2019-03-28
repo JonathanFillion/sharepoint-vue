@@ -106,10 +106,12 @@
 		"Work_x0020_package_x0020_end_x00_3559fa2d-7d38-4e47-a06b-3a88ccae9b23_$DateTimeFieldTopTable",
 		"SM_x0020_Live_x0020_Details_091035ad-692e-4577-b0d9-870773144a50_$TextField",
 		"SM_x0020_Go_x0020_Live_x0020_Dat_39a3274b-38ef-46a9-a669-b54b9e9e12cb_$DateTimeFieldDate",
-		"TFA_x0020_fiscal_x0020_year_1e5d15dd-91e3-4069-b31e-2da5236b55b1_$DropDownChoice"
-   
+		"TFA_x0020_fiscal_x0020_year_1e5d15dd-91e3-4069-b31e-2da5236b55b1_$DropDownChoice",
+		"TFA_x0020_Type0_05731247-e07a-4ba0-b2a1-c03b980655e1_$DropDownChoice",
+		"TFA_x0020_Signed_d354640e-419c-48fa-bff0-f412a379227a_$DropDownChoice",
+		"TFA_x0020_Status_9ad033ab-9ec5-44b2-ace3-0edec8671671_$DropDownChoice",
+		"TFA_x0020_Type_693bb6ff-1b05-4d08-bff5-96120bda986c_$DropDownChoice"
    ],
-   
    
    "ass":[
 	  "Overall_x0020_Status_9593c99d-e6b9-4234-abfa-3c6497d3f227_$DropDownChoice",
@@ -141,8 +143,13 @@
 	  "Project_x0020_Size_b651d3ac-dd2a-49bc-8132-948d65b1bb44_$DropDownChoice",
 	  "TFA_x0020_fiscal_x0020_year_1e5d15dd-91e3-4069-b31e-2da5236b55b1_$DropDownChoice",
 	  "Amendment_x0020_TFA_c4b6a432-b534-4393-8797-2b39fb4dd80c_$DropDownChoice",
-	  "Project_x0020_Complexity_65001f36-58b4-463a-94f7-831405270c55_$DropDownChoice"
+	  "Project_x0020_Complexity_65001f36-58b4-463a-94f7-831405270c55_$DropDownChoice",
+	  "TFA_x0020_Type0_05731247-e07a-4ba0-b2a1-c03b980655e1_$DropDownChoice",
+	  "TFA_x0020_Signed_d354640e-419c-48fa-bff0-f412a379227a_$DropDownChoice",
+      "TFA_x0020_Status_9ad033ab-9ec5-44b2-ace3-0edec8671671_$DropDownChoice",
+	  "TFA_x0020_Type_693bb6ff-1b05-4d08-bff5-96120bda986c_$DropDownChoice"
    ],
+   
    "on":[
 		"OPR_x0020__x002d__x002d__x0020_O2_8faeefe6-f2f2-4c4d-8a3b-750210575042_$DropDownChoice",
 		"SACM_x0020__x002d__x002d__x0020_26_a415fc7c-3e3c-4f21-a6d2-106dd089ad56_$DropDownChoice",
@@ -159,6 +166,7 @@
 		"ITC_x0020__x002d__x002d__x0020_O1_24c16b09-e40f-4016-9f52-9517ae1cf83a_$DropDownChoice",
 		"Close_x002d_out_x0020_and_x0020__5b9ae445-92c4-444c-be25-5940273645f8_$DropDownChoice"
    ],
+   
    "sacm":[
       "SACM_x0020_Status_5f71d162-64ef-4789-bfc8-220c528d4b4c_$DropDownChoice",
       "SACM_x0020_Status_x0020_Notes_cc303424-b7b2-4a60-8510-ce3615aeb6d8_$TextField",
