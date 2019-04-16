@@ -21,25 +21,14 @@
 		created: function() {
 			//All the ids of web elements
 			//Just ctrl-h and replace \r and \n and tabs and spaces for enters(notepadd++)
-			
-			
-			
+						
 			var handler = function(){
-			if(http.readyState == 4 && http.status == 200) {
-				
-				this.ids = JSON.parse(http.responseText)
-				
-			}
+				if(http.readyState == 4 && http.status == 200) {
+					this.ids = JSON.parse(http.responseText)
+				}
 			}
 
 			var boundHandler = handler.bind(this);
-			
-			
-			
-			
-			
-			
-				
 			
 			var http = new XMLHttpRequest();
 			var url = "https://synergi.ssc-spc.gc.ca/IS/SMO-OGS/SMTPS/Shared%20Documents/dev/sharepoint-checklist/ids.txt";
@@ -49,13 +38,6 @@
 			http.onreadystatechange = boundHandler;
 			
 			http.send();
-			
-			
-		
-			
-			
-			
-		
 			
 		},
 	
@@ -136,7 +118,7 @@
 										toTR(document.getElementById(allIds[i][j])).className += " remove-from-view"
 								} catch(err) {
 								//In case of id non-existent, catch and display error message
-									console.log("Should remove from ids : section " + this.shouldDisplay + " :" + allIds[i][j]);
+									console.log("Should remove from ids   :  " + allIds[i][j]);
 									}
 							}
 						}
