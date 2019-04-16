@@ -8,7 +8,7 @@
   	<div class="clickable" v-bind:class="{text_selected: 'check_rfl' === this.isDisplayed}" v-on:click="click('check_rfl')">RFL</div>
   	<div class="clickable" v-bind:class="{text_selected: 'check_im_pm' === this.isDisplayed}" v-on:click="click('check_im_pm')">IM-PM</div>
   	<div class="clickable" v-bind:class="{text_selected: 'check_itc' === this.isDisplayed}" v-on:click="click('check_itc')">ITC</div>
-  	<div class="clickable" v-bind:class="{text_selected: 'check_opr' === this.isDisplayed}" v-on:click="click('check_opr')">OPR</div>
+  	<!-- <div class="clickable" v-bind:class="{text_selected: 'check_opr' === this.isDisplayed}" v-on:click="click('check_opr')">OPR</div> -->
   </div>
 </template>
 <script>
